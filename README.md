@@ -306,6 +306,15 @@ This pipeline is being validated against simulated and real ground-truth NAT set
 - **LIGR-seq integration** — direct RNA-RNA interaction evidence as a further orthogonal signal for candidate NAT pairs.
 - **Automatic pair-level reporting** — a script that turns `*.nat.overlaps.tsv` straight into a summary report (tables + plots), run as part of the pipeline itself rather than by hand. `nat_caller_summary.R` in this repo is a first pass at this kind of analysis, but it's a standalone, hardcoded, not-wired-in script (see `REMOVED_UNUSED_CODE.md`) — the plan is a proper CLI-parameterized version integrated as a pipeline step.
 
+## Author
+
+**Artemi Aleshkevich**
+Adam Mickiewicz University in Poznań
+
+- GitHub: [@everythinginthedot](https://github.com/everythinginthedot)
+- LinkedIn: [artemi-aleshkevich](https://www.linkedin.com/in/artemi-aleshkevich-2027b52b6/)
+- Email: [artale@st.amu.edu.pl](mailto:artale@st.amu.edu.pl)
+
 ## License
 
 MIT — see `LICENSE`. This does not apply to the vendored `bin/SQANTI3/`, which keeps its own GPLv3 license.
