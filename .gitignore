@@ -50,9 +50,12 @@ null.overlaps.csv
 ### Leftover manual-run output, not code ###
 /bin/res_sg/
 
+### Personal reference notes — not for publication ###
+/REMOVED_UNUSED_CODE.md
+
 ### Disconnected from the live workflow (orphaned modules / dead scripts) —
 ### kept on disk in case they get finished/reconnected later, see
-### REMOVED_UNUSED_CODE.md for why each one is here ###
+### REMOVED_UNUSED_CODE.md (local only, see above) for why each one is here ###
 /modules/local/seqkit/concat/
 /modules/local/flair/create_manifests/
 /modules/nf-core/sortmerna/
