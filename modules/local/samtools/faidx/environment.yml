@@ -1,0 +1,10 @@
+---
+# yaml-language-server: $schema=https://raw.githubusercontent.com/nf-core/modules/master/modules/environment-schema.json
+name: samtools_faidx
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  # pinned to match the container tag this module used to pull:
+  # quay.io/biocontainers/samtools:1.23--h96c455f_0
+  - bioconda::samtools=1.23=h96c455f_0

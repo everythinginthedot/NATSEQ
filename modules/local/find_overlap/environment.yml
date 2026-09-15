@@ -1,0 +1,9 @@
+name: gffutils_overlap
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - gffutils=0.12
+  - pip

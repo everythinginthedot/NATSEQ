@@ -1,0 +1,3 @@
+sample_id,group_id,read_type,library_type,replicate,strandedness,fastq_1,fastq_2,bam,bai,star_sj,gtf,bed,fa,map
+Sample_cDNA_bioRep1,tissueB_bioRep1,long,cDNA,1,stranded,data/fastq/Sample_cDNA_bioRep1.fastq.gz,,,,,,,,
+Sample_Illumina_bioRep1,tissueB_bioRep1,short,,1,stranded,data/fastq/Sample_Illumina_bioRep1_R1.fastq.gz,data/fastq/Sample_Illumina_bioRep1_R2.fastq.gz,,,,,,,

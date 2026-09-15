@@ -1,0 +1,14 @@
+---
+# yaml-language-server: $schema=https://raw.githubusercontent.com/nf-core/modules/master/modules/environment-schema.json
+name: intronprospector
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  # runtime deps for bin/intron-prospector (+ bin/intronProspector compat wrapper),
+  # compiled from https://github.com/diekhans/intronProspector (no bioconda package
+  # exists for the tool itself). Built against htslib 1.24; libxcrypt is needed at
+  # runtime because htslib's libcurl pulls in -lcrypt but conda doesn't install it
+  # as a transitive dependency. See bin/intron-prospector for the compiled binary.
+  - bioconda::htslib=1.24
+  - conda-forge::libxcrypt

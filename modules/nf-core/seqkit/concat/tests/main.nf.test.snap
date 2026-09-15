@@ -1,0 +1,62 @@
+{
+    "sarscov2 and human primers - fasta": {
+        "content": [
+            "test.fasta",
+            {
+                "versions_seqkit": [
+                    [
+                        "SEQKIT_CONCAT",
+                        "seqkit",
+                        "2.9.0"
+                    ]
+                ]
+            }
+        ],
+        "timestamp": "2026-03-13T12:31:22.622460144",
+        "meta": {
+            "nf-test": "0.9.4",
+            "nextflow": "25.10.4"
+        }
+    },
+    "sarscov2 and human primers - fasta - stub": {
+        "content": [
+            {
+                "0": [
+                    [
+                        {
+                            "id": "test"
+                        },
+                        "test.fasta:md5,d41d8cd98f00b204e9800998ecf8427e"
+                    ]
+                ],
+                "1": [
+                    [
+                        "SEQKIT_CONCAT",
+                        "seqkit",
+                        "2.9.0"
+                    ]
+                ],
+                "fastx": [
+                    [
+                        {
+                            "id": "test"
+                        },
+                        "test.fasta:md5,d41d8cd98f00b204e9800998ecf8427e"
+                    ]
+                ],
+                "versions_seqkit": [
+                    [
+                        "SEQKIT_CONCAT",
+                        "seqkit",
+                        "2.9.0"
+                    ]
+                ]
+            }
+        ],
+        "timestamp": "2026-03-12T12:55:48.595365683",
+        "meta": {
+            "nf-test": "0.9.4",
+            "nextflow": "25.10.4"
+        }
+    }
+}

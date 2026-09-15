@@ -1,0 +1,7 @@
+sample_id,group_id,read_type,library_type,replicate,strandedness,fastq_1,fastq_2,bam,bai,star_sj,gtf,bed,fa,map
+Sample_cDNA_bioRep1,Sample_cDNA_bioRep1,long,cDNA,1,stranded,data/fastq/Sample_cDNA_bioRep1.fastq.gz,,,,,,,,
+Sample_cDNA_bioRep2,Sample_cDNA_bioRep2,long,cDNA,2,stranded,data/fastq/Sample_cDNA_bioRep2.fastq.gz,,,,,,,,
+Sample_directcDNA_bioRep1,Sample_directcDNA_bioRep1,long,direct-cDNA,1,stranded,data/fastq/Sample_directcDNA_bioRep1.fastq.gz,,,,,,,,
+Sample_directcDNA_bioRep2,Sample_directcDNA_bioRep2,long,direct-cDNA,2,stranded,data/fastq/Sample_directcDNA_bioRep2.fastq.gz,,,,,,,,
+Sample_dRNA_bioRep1,Sample_dRNA_bioRep1,long,dRNA,1,stranded,data/fastq/Sample_dRNA_bioRep1.fastq.gz,,,,,,,,
+Sample_dRNA_bioRep2,Sample_dRNA_bioRep2,long,dRNA,2,stranded,data/fastq/Sample_dRNA_bioRep2.fastq.gz,,,,,,,,

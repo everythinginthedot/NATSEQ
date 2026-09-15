@@ -1,0 +1,2 @@
+sample_id,group_id,read_type,library_type,replicate,strandedness,fastq_1,fastq_2,bam,bai,star_sj,gtf,bed,fa,map
+smoke_test_chr1_10mb,smoke_test_chr1_10mb,long,dRNA,1,stranded,docs/examples/data/sample_reads_10mb.fastq.gz,,,,,,,,
