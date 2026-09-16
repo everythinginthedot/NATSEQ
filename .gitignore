@@ -10,11 +10,13 @@
 /logs/
 /TEST/
 
-### Benchmark — data/results stay local, only the write-up is published.
-### /benchmark/* (not /benchmark/) so the !negation below can reach into it —
+### Benchmark — data/results stay local, only the write-up and the
+### figures it actually embeds are published.
+### /benchmark/* (not /benchmark/) so the !negations below can reach into it —
 ### git won't apply a negation to a path inside a directory that's ignored outright.
 /benchmark/*
 !/benchmark/README.md
+!/benchmark/figures/
 
 ### Nextflow run state and output ###
 .nextflow/
